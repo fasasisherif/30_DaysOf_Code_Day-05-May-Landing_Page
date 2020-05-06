@@ -1,0 +1,370 @@
+body{
+				padding:0px;
+				margin:0px;
+				margin:auto;
+				background-image:url(  .png);
+				background-size:cover;
+				background-color:#f4f4f4;
+				font-family:"Baloo Da 2"
+				}
+header{
+				height:50vh;
+				width:100vw;
+				background-image:url(hero_img.png);
+				background-size:cover;
+				filter:saturate(100%);
+				display:flex;
+				justify-content:space-around;
+				align-contents:center;
+				text-align: center;
+				border-bottom:1px solid #aa00ff;
+			
+				}
+.logo{
+				height:110px;
+				width:110px;
+				background-image:url(business_logo.jpg);
+			 background-size:contain;
+			 border-radius:50%;
+		  margin-top:20%;
+				}
+.head{
+				font-family:Parisienne;
+				font-size:50px;
+				font-weight:500;
+				color:#590066;
+				margin-top:20%;
+				}
+.sli1{
+				height:200px;
+				width:200px;
+				background-image:url(iprocure1.png);
+				background-size:cover;
+				margin: 1pc auto 0px auto;
+				animation:fade 3s ease infinite;
+				border-radius:10px;
+				border:3px double #6600cc;
+				background-clip:content-box;
+				}
+
+.sli2{
+				height:200px;
+				width:200px;
+				background-image:url(tote1.png );
+				background-size:cover;
+				animation:fade 3s ease infinite;
+				border-radius:10px;
+				margin:1pc auto 0pc auto;
+				border:3px double #6600cc;
+				background-clip:content-box;
+				}
+.sli3{
+				height:200px;
+				width:200px;
+				background-image:url(jameel2.png);
+				background-size:cover;
+				animation:fade 3s ease infinite;
+				margin:1pc auto 0pc auto;
+				border:3px double #6600cc;
+				background-clip:content-box;
+				}
+				
+@keyframes fade{
+				0%{opacity:0.3;}
+				50%{opacity:0.8;}
+			 100%{opacity:2;}
+				}
+.offer{
+				text-align:center;
+				font-weight:500;
+				}
+.suboffer{
+				font-size:40px;
+				text-align:center;
+				margin-top:5.9pc;
+				font-weight:bold;
+				color:#6600cc ;
+				}
+.suboffer1{
+				margin-top:-1pc;
+				font-weight:500;
+				padding:4%;
+				}
+.procure{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+      color:#6600cc;
+				}
+.procure1{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}
+.tote1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:50p;
+				color:#6600cc;
+				}
+.tote2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}
+.jameel1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				color:#6600cc;
+				}
+.jameel2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}
+.jameel3{
+			 margin:1.3pc auto 1pc auto;
+				}
+.benefits{
+				text-align:center;
+				}
+.hype1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				}
+.hype2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:left;
+				padding:4%;
+				}
+.locate1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				}				
+.locate2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}				
+.contact1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				color:#5900cc;
+				}				
+.contact2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}				
+.proud{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				color:#5900cc;
+				}		
+.one{
+				background-color:#dfdfdf;
+				color:black;
+				padding:4%px;
+				margin-top:4.3pc;
+				border-radius:0px;
+				border:2px solid #aeaeae;
+				}				
+.one1{
+				padding:20px;
+				}		
+.sli{
+				margin-top:8pc;
+				}	
+.jameel{
+				margin-top:8pc;
+				background:rgb(220,220,220);
+				padding:20px;
+				margin-top:4.3pc;
+				border-radius:0px;
+				border:2px solid #aeaeae;
+				}				
+.benefits{
+				background:#aa00ff;
+				color:white;
+				padding:20px;
+				margin-top:5pc;
+				border-radius:0px;
+				text-align:center;
+				}				
+.hype1{
+				color:white;
+				font-size:35px;
+				}	
+hr{
+				width:60%;
+				background-color:#dbdbdb;
+				height:2px;
+				border:none;
+				}					
+.locate1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				color:#6600cc;
+				}
+.locate2{
+				font-weight:500;
+				}
+.mylogo{
+				width:90px;
+				height:90px;
+				background-image:url(mylogo.jpg);
+				background-size:cover;
+				border-radius:50%;
+				margin:.1pc auto;
+				}	
+a{
+				color:#6600cc;
+				}		
+.note0{
+				background-color:#aa00ff;
+				padding:20px;
+				margin:2pc 0 4pc 0;
+				}
+.note1{
+				font-size:25px;
+				text-align:center;
+				margin-top:pc;
+				font-weight:500;
+				color:white;
+				text-decoration:underline;
+				}				
+.note2{
+				text-align:center;
+				padding:4%;
+				color:white;
+				}
+.icon{
+				margin:auto;
+				width:40px;
+				height:40px;
+				}		
+footer{
+				font-family:"baloo da 2";	
+				margin-top:4pc;
+				padding:20px;
+				background-color:rgba(120,120,120,0.2);
+				color:white;			
+				border:5px solid rgba(190 ,190, 190,0.4);	
+				}		
+.footicon{
+				display:flex;
+				justify-content: center;
+				}
+.speech{
+				color:black;
+				text-align:center;
+				font-weight:500;
+				}			
+				
+/** Media query begins **/
+
+@media (min-width:768px){
+    header{height:20vh;
+       display:flex;
+       align-items:center;
+       justify-content: space-around;
+       margin-bottom:-3pc;
+   }
+.head{font-size:80px;
+margin-top:1pc;
+}
+.logo{
+				width:160px;
+				height:160px;
+				margin-top:1pc;
+				}				
+.suboffer1{
+				margin-top:-3pc;
+				}				
+.offer{
+				width:50%;
+				margin:auto;
+				}		
+.one{
+				width:25%;
+				margin:auto;
+				}		
+.second	{
+				display:flex;
+				margin-top:1pc;
+				justify-content: space-around;
+				align-items:center;
+				}			
+.tote0{
+				width:30%;
+				margin:auto;
+				}
+.jameel{
+				width:25%;
+				margin:auto;
+				}
+.benefits{
+				width:80vw;
+				margin:8pc auto;
+				border-radius:15px;
+				
+				}
+ul,li{
+				text-align:center;
+				text-decoration:none;
+				}
+.hype2{
+				text-align:center;
+				}		
+.locate{
+				width:30%;
+				margin:auto;
+				order:1;
+				}
+.contact{
+				width:30%;
+				margin:auto;
+				order:3;
+				}			
+.myproud{
+				width:30%;
+				margin:auto;
+				order:2;
+				}				
+.third{
+				display:flex;
+				justify-content: space-around;
+				align-items:center;
+				margin-bottom:8pc;
+				}			
+hr{
+				display:none;
+				}		
+.note0{
+				width:80vw;
+				margin:8pc auto;
+				border-radius:15px;
+				}
+						
+	}				
+				

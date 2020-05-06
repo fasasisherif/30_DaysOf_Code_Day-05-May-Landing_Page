@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jameel Clothings Landing Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Dancing+Script:wght@500&family=Parisienne&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="product.css">
+
+<style>
+html{
+				scroll-behavior:smooth;
+				}
+body{
+				padding:0px;
+				margin:0px;
+				margin:auto;
+				background-image:url(  .png);
+				background-size:cover;
+				background-color:#f4f4f4;
+				font-family:"Baloo Da 2"
+				}
+nav{
+				
+				}
+.topp{
+				padding:8px;
+				background-color:#f0f0f0;
+				display:flex;
+				justify-content:space-between;
+				font-size:30px;
+				border-bottom:2px double #dbdbdb;
+				}
+.bottomm{
+				background-colo:pink;
+				font-size:18px;
+				text-align:center;
+				border-bottom:1.5px double #dbdbdb;
+				width:0px;
+				height:0px;
+				overflow:hidden;
+				transition:height 1s ease;
+				}
+a{
+				text-decoration:none;
+				}
+.bottomm > div {
+				padding:8px;
+				border-bottom:1.5px double #dbdbdb;
+				}
+.aa:hover, .bb:hover, .cc:hover, .dd:hover, .ee:hover, .ff:hover{
+				background-color:#aa00ff;
+				color:white;
+				}
+header{
+				height:50vh;
+				width:100vw;
+				background-image:url(hero_img.png);
+				background-size:cover;
+				filter:saturate(100%);
+				display:flex;
+				justify-content:space-around;
+				align-contents:center;
+				text-align: center;
+				border-bottom:1px solid #aa00ff;
+			
+				}
+.logo{
+				height:110px;
+				width:110px;
+				background-image:url(business_logo.jpg);
+			 background-size:contain;
+			 border-radius:50%;
+		  margin-top:20%;
+				}
+.head{
+				font-family:Parisienne;
+				font-size:50px;
+				font-weight:500;
+				color:#590066;
+				margin-top:20%;
+				}
+.sli1{
+				height:200px;
+				width:200px;
+				background-image:url(iprocure1.png);
+				background-size:cover;
+				margin: 1pc auto 0px auto;
+				animation:fade 3s ease infinite;
+				border-radius:10px;
+				border:3px double #6600cc;
+				background-clip:content-box;
+				}
+
+.sli2{
+				height:200px;
+				width:200px;
+				background-image:url(tote1.png );
+				background-size:cover;
+				animation:fade 3s ease infinite;
+				border-radius:10px;
+				margin:1pc auto 0pc auto;
+				border:3px double #6600cc;
+				background-clip:content-box;
+				}
+.sli3{
+				height:200px;
+				width:200px;
+				background-image:url(jameel2.png);
+				background-size:cover;
+				animation:fade 3s ease infinite;
+				margin:1pc auto 0pc auto;
+				border:3px double #6600cc;
+				background-clip:content-box;
+				}
+				
+@keyframes fade{
+				0%{opacity:0.3;}
+				50%{opacity:0.8;}
+			 100%{opacity:2;}
+				}
+.offer{
+				text-align:center;
+				font-weight:500;
+				}
+.suboffer{
+				font-size:40px;
+				text-align:center;
+				margin-top:5.9pc;
+				font-weight:bold;
+				color:#6600cc ;
+				}
+.suboffer1{
+				margin-top:-1pc;
+				font-weight:500;
+				padding:4%;
+				}
+.procure{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+      color:#6600cc;
+				}
+.procure1{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}
+.tote1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:50p;
+				color:#6600cc;
+				}
+.tote2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}
+.jameel1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				color:#6600cc;
+				}
+.jameel2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}
+.jameel3{
+			 margin:1.3pc auto 1pc auto;
+				}
+.benefits{
+				text-align:center;
+				}
+.hype1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				}
+.hype2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:left;
+				padding:4%;
+				}
+.locate1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				}				
+.locate2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}				
+.contact1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				color:#5900cc;
+				}				
+.contact2{
+				margin-top:0pc;
+				font-weight:500;
+				text-align:center;
+				padding:4%;
+				}				
+.proud{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				color:#5900cc;
+				}		
+.one{
+				background-color:#dfdfdf;
+				color:black;
+				padding:4%px;
+				margin-top:4.3pc;
+				border-radius:0px;
+				border:2px solid #aeaeae;
+				}				
+.one1{
+				padding:20px;
+				}		
+.sli{
+				margin-top:8pc;
+				}	
+.jameel{
+				margin-top:8pc;
+				background:rgb(220,220,220);
+				padding:20px;
+				margin-top:4.3pc;
+				border-radius:0px;
+				border:2px solid #aeaeae;
+				}				
+.benefits{
+				background:#aa00ff;
+				color:white;
+				padding:20px;
+				margin-top:5pc;
+				border-radius:0px;
+				text-align:center;
+				}				
+.hype1{
+				color:white;
+				font-size:35px;
+				}	
+hr{
+				width:60%;
+				background-color:#dbdbdb;
+				height:2px;
+				border:none;
+				}					
+.locate1{
+				font-size:25px;
+				text-align:center;
+				margin-top:1pc;
+				font-weight:500;
+				color:#6600cc;
+				}
+.locate2{
+				font-weight:500;
+				}
+.mylogo{
+				width:90px;
+				height:90px;
+				background-image:url(mylogo.jpg);
+				background-size:cover;
+				border-radius:50%;
+				margin:.1pc auto;
+				}	
+a{
+				color:#6600cc;
+				}		
+.note0{
+				background-color:#aa00ff;
+				padding:20px;
+				margin:2pc 0 4pc 0;
+				}
+.note1{
+				font-size:25px;
+				text-align:center;
+				margin-top:pc;
+				font-weight:500;
+				color:white;
+				text-decoration:underline;
+				}				
+.note2{
+				text-align:center;
+				padding:4%;
+				color:white;
+				}
+.icon{
+				margin:auto;
+				width:40px;
+				height:40px;
+				}		
+footer{
+				font-family:"baloo da 2";	
+				margin-top:4pc;
+				padding:20px;
+				background-color:rgba(120,120,120,0.2);
+				color:white;			
+				border:5px solid rgba(190 ,190, 190,0.4);	
+				}		
+.footicon{
+				display:flex;
+				justify-content: center;
+				}
+.speech{
+				color:black;
+				text-align:center;
+				font-weight:500;
+				}			
+				
+/** Media query begins **/
+
+@media (min-width:768px){
+    header{height:20vh;
+       display:flex;
+       align-items:center;
+       justify-content: space-around;
+       margin-bottom:-3pc;
+   }
+.head{font-size:80px;
+margin-top:1pc;
+}
+.logo{
+				width:160px;
+				height:160px;
+				margin-top:1pc;
+				}				
+.suboffer1{
+				margin-top:-3pc;
+				}				
+.offer{
+				width:50%;
+				margin:auto;
+				}		
+.one{
+				width:25%;
+				margin:auto;
+				}		
+.second	{
+				display:flex;
+				margin-top:1pc;
+				justify-content: space-around;
+				align-items:center;
+				}			
+.tote0{
+				width:30%;
+				margin:auto;
+				}
+.jameel{
+				width:25%;
+				margin:auto;
+				}
+.benefits{
+				width:80vw;
+				margin:8pc auto;
+				border-radius:15px;
+				
+				}
+ul,li{
+				text-align:center;
+				text-decoration:none;
+				}
+.hype2{
+				text-align:center;
+				}		
+.locate{
+				width:30%;
+				margin:auto;
+				order:1;
+				}
+.contact{
+				width:30%;
+				margin:auto;
+				order:3;
+				}			
+.myproud{
+				width:30%;
+				margin:auto;
+				order:2;
+				}				
+.third{
+				display:flex;
+				justify-content: space-around;
+				align-items:center;
+				margin-bottom:8pc;
+				}			
+hr{
+				display:none;
+				}		
+.note0{
+				width:80vw;
+				margin:8pc auto;
+				border-radius:15px;
+				}
+						
+	}				
+				
+
+
+
+</style>
+
+
+
+</head>
+<body>
+
+
+
+<nav>
+  <section class="topp">
+    <div>JAMEEL</div></div>
+    <div id="ham">&#9776;</div>
+  </section>
+  <section class="bottomm">
+    <div class="aa"><a href="#offer">What We Offer</a></div>
+    <div class="bb"><a href="#procure">Iprocure</a></div>
+    <div class="cc"><a href="#tote">Tote bags</a></div>
+    <div class="dd"><a href="#jameel">Jameel Clothingd</a></div>
+    <div class="ee"><a href="#benefit">Your benefits</a></div>
+    <div class="ff"><a href="#location">Our location</a></div>
+  </section>
+</nav>
+
+
+
+  <header>
+  <div class="logo">
+  </div>
+  <div class="head">
+  Jameel<br> Clothings
+  </div>
+  </header>
+  
+  
+  <article class="all">
+ 
+  <section class="offer">
+  <div></div>
+  <div class="suboffer" id="offer"> What We Offer </div>
+  <div class="suboffer1">
+  <p>We give different services such as different services such as iPROCURE mini importation business, beautiful customised Tote bags and Jameel clothings.</p><p> Find out more about our services below. Our foremost priority is your 99.9% satisfaction.</p>
+  </div>
+  
+  </section>
+  <div class="second">
+  <section class="one">
+  <div class="one1">
+  <div class="sli1" ></div>
+  <div class="procure" id="procure"> Heard About iPROCURE? </div>
+  <div class="procure1"> Yeah iPROCURE.<br> iPROCURE is a procurement agency that eases the stress of   from other countries: USA, China at affordable exchange rate. Hey! Please don't sweat it out. We've got you covered. You don't need to go through the stress rest of speakChinese sellers or even shipping agents</div>
+  </div>
+  </section>
+  
+  <section class="tote0">
+  <div class="sli">
+  <div class="sli2" id="tote"></div></div>
+  <div class="tote1"> Tote Bags </div>
+  <div class="tote2"> Are you a lover of customised Tote bags? Do you love to have one for yourself? Great! Get a beautiful customised Tote bags at a token. </div>
+  </section>
+  
+  <section class="jameel" id="jameel">
+  <div class="jameel0">
+  <div class="sli3"></div></div>
+  <div class="jameel1">Jameel Clothings</div>
+  <div class="jameel2">Do you know that add @Jameel clothings we give you more modesty with class? Ranging from various styles of jilbaab, abaya, single layer niqab,2 layer niqab and 3 layer niqab.<br>Why don't you reach out to us and a trial will convince you.
+  <div class="jameel3">jameelclothings... modesty with style</div>
+  </div>
+  </section>
+  </div>
+  
+  <section class="benefits" id="benefit">
+  
+  <div class="hype1">Your Benefits</div>
+  <div class="hype2">By doing business with us you have the benefit of;
+  <ul>
+  <li>Fast Delivery</li>
+  <li>We take care of your travel expenses</li>
+  <li>We provide first class product and amazing customer care</li>
+  </ul>
+  </div>
+  </section>
+  
+  <div class="third" id="location">
+  <section class="locate">
+  <div class="locate1">Our Location</div>
+  <div class="locate2"><div>We are based in Ibadan</div></div>
+
+  </section>
+  <hr>
+  <section class="contact">
+  <div class="contact1">Contact Us</div>
+  <div class="contact2">
+  <div>Reach us via our WhatsApp link <a href="https://wa.me/2348182023230">https://wa.me/2348182023230</a></div>
+  <div>Or the E-mail:<br> fasasisherif@gmail.com</div>
+  </div>
+  </section>
+  <hr>
+  <section class="myproud">
+  <div class="proud">Proudly By</div>
+  <div class="mylogo"></div>
+  </section>
+  </div>
+  
+  <section class="note0">
+  <div class="note1">NOTE</div>
+  <div class="note2">Do bear in mind that the above business exists 100% and I helped her advertise it.<br> Contact us if interested.</div>
+  </section>
+  </article>
+  
+  
+  <hr>
+  <footer>
+  <div class="footicon">
+<a href="https://www.sololearn.com/ ">
+<img class="icon" src=" https://www.sololearn.com/Uploads/icons/sololearn.png" alt="Sololearn img">
+</a>
+<a href=" https://www.facebook.com/ummu.asmaazizat">
+<img class="icon" alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+</a>
+<a href="  ">
+<img class="icon" alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+</a>
+</div>
+
+
+<div class="speech">
+<p>#ECX30DaysOfCode_Day04</p>
+<p>#coronavirus</p>
+<p>fasasisherif@gmail.com</p>
+</div>
+
+  </footer>
+   
+   
+<script>
+var ham = document.getElementById("ham");
+var bottomm = document.getElementsByClassName("bottomm");
+ham.addEventListener("click",uniq1);
+
+var num = 0;
+function uniq1(){
+bottomm[0].style.height ="290px"	;		
+bottomm[0].style.width ="auto"	;					
+num++;
+
+if (num%2 === 0){
+bottomm[0].style.width ="0px"	;	
+bottomm[0].style.height ="0px"	;					
+			}			
+	}
+
+
+
+
+var iprocure = [ "iprocure1.png","iprocure5.png","iprocure6.png","iprocure7.png","iprocure8.png"]
+
+
+var a = 0;
+function myfunc1(){
+var b = document.getElementsByClassName('sli1');
+a++;
+if ( a >= iprocure.length){
+				a = 0;
+}
+b[0].style.backgroundImage = 'url(' + iprocure[a] + ')' ;
+}
+setInterval(myfunc1,1000);
+
+
+
+var totebag = ["tote1.png","tote2.png","tote3.png","tote4.png"]
+var c = document.getElementsByClassName('sli2');
+
+var d = 0;
+function myfunc2(){
+				d++;
+			 c[0].style.backgroundImage =  'url(' + totebag[d] + ')';
+if (d >= 3){
+				d = 0;
+				}
+	}
+setInterval(myfunc2,1000);
+
+
+var e = 0;
+var jameel = ["jameel1.png", "jameel2.png","jameel3.png","jameel4.png","jameel5.png" ]
+
+function myfunc3() {
+				e++;
+var f = document.getElementsByClassName('sli3');
+f[0].style.backgroundImage = 'url(' + jameel[e] + ')';
+if (e>=3){
+				e = 0;
+				}
+				}
+setInterval(myfunc3,1000);
+
+
+
+
+</script>   
+   
+   
+</body>
+</html>
